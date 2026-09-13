@@ -9,7 +9,7 @@ body {
 .container {
   max-width: 800px;
   margin: 0 auto;
-  text-align: center; /* ensure everything inside is centered by default */
+  text-align: center;
 }
 
 p {
@@ -20,9 +20,11 @@ p {
 pre {
   font-size: 13px;
   line-height: 1.1;
-  margin: 50px auto; /* center pre blocks horizontally */
-  overflow-x: auto;
-  text-align: center; /* center content inside pre */
+  margin: 50px auto;
+  max-width: 100%;
+  overflow: hidden;
+  white-space: pre;
+  text-align: center;
 }
 
 .center {
@@ -48,3 +50,4 @@ pre {
   border-color: #777;
   color: #000;
 }
+
